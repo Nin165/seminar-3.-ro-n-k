@@ -31,10 +31,11 @@ while True:
     break
 
 cisla = [4,8,12,16,20]
+x = 0
 for i in cisla:
-    i = cisla[0]+cisla[1] + cisla[2] + cisla[3] + cisla[4]
-    print(i)
-    break
+    x += i
+print(x)
+
 
 cisla = [3,8,11,14,17,20]
 for n in cisla:
