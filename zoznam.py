@@ -25,6 +25,10 @@ cisla = [3,6,9,12,15]
 for c in cisla:
     print(c)
 
+cisla = [3, 6, 9, 12, 15]
+for i in cisla:
+    print(i)
+
 mena = ['adam','eva','peter','jana']
 while True:
     print(mena)
