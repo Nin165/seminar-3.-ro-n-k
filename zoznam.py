@@ -46,5 +46,29 @@ for n in cisla:
     if n % 2 == 0:
         print(n)
 
+cislo= [12,3,4,5,6,10]
+for i in cislo:
+    print(i)
+for z in range(len(cislo)):
+    print(cislo[z],end=',')
+
+print( )
+
+x = 0
+while x < len(cislo):
+    print(cislo[x],end=',')
+    x += 1
+
+znamky=[]
+for z in range(5):
+    znamka=int(input('znamka: '))
+    znamky.append(znamka)
+print(znamky)
+print('priemer',sum(znamky)/len(znamky))
+
+#list comprehencia
+z=[int(input('znamka: '))for i in range(5)]
+print(z)
+
 
 
